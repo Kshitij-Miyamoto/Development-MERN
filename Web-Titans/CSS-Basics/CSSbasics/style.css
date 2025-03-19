@@ -1,0 +1,81 @@
+h1{
+    color: blue;
+    border: 5px solid black;
+    text-align: center;
+    background-color: aqua;
+    font-size: 150px ; 
+}
+body{
+    color: black;
+    padding: 15px 15px 15px;
+    margin: 5px 5px 5px;
+}
+pre{
+    color: black;
+    border: 2px dashed black ;
+    padding: 5px 2px 2px 2px ;
+    font-size: 1.5em;
+}
+
+.Goals{
+    color: black;
+    font-size: 2em;
+    background-color: blanchedalmond;
+    padding-top: 10px;
+}
+.Heading{
+    font-size: 50px;
+    color : black;
+    font-style: italic;
+    text-align: center;
+    background-color: blanchedalmond;
+    box-shadow: 5px 5px 5px;
+}
+.image{
+   text-align: center;
+   border: 10px solid black;
+   display: block;
+}
+/* This was class selector */
+p{
+text-align: center;
+font-size: 2em;
+color: darkgreen;
+}
+/* This was basically ID Selector  */
+#Goal{ 
+    text-align: center;
+    font-size: 6em;
+}
+*{
+    box-sizing: border-box;
+    /* padding: 2em 2em 2em 2em; */
+    /* Due to this padding command everything got screwed up and each element got 2em */
+}
+/* This is an example of attribute selectors */
+[title = Hobbies]{
+
+    color: black
+}
+
+[title ~= Age]
+{
+    text-align: left;
+    color: black;
+    padding-left: 35px;
+}
+
+[title = Gender]{
+    text-align: left;
+    color: black;
+    padding-left: 35px;
+}
+
+/* Descendent combinator */
+div p{
+    color: black;
+    font-size: 2em;
+}
+body div{
+    color: red;
+}

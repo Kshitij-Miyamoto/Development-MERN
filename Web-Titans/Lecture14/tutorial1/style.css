@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    animation-name: anything;
+    animation-duration: 2s;
+
+    /* to always keep the animation moving */
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-play-state: running;  
+}
+
+/* #container:hover{
+    background-color: red;
+    height: 300px;
+    width: 100px;
+} */
+
+#container:hover{
+    /* animation-name: anything;
+    animation-duration: 2s; */
+
+    /* to always keep the animation moving */
+    /* animation-iteration-count: 2;
+    animation-timing-function: linear;
+    animation-delay: 2s; */
+    /* Reverses changes the direction of the animation */
+    /* animation-direction: reverse;
+    animation-direction: alternate; */
+    /* animation-direction: alternate-reverse; */
+
+    /* Animation state will be adopted at 0 seconds, during the delay as well, this is kinda tricky,
+     The animation ends at green color which isn't what we want, 
+    we want the animation to top at aqua only as it is where we started. */
+    /* Forward means where we want the aninmation to stop at which state, this is basically the function of forward */
+    /* When animation state is none, then till the delay the transition state isn't adopted */
+    /* animation-fill-mode: both;   */
+    /* Due to writing both now the animation will stop at 100%, Fwd basically means when we want or at which part do we want
+    the animation to stop */
+
+    /* Animation has been paused */
+    animation-play-state: running;  
+
+}
+
+/* Resource heavy in nature */ 
+/* Basic Syntax of animation */
+/* Our animation here has 3 breakpoints, more breakpoints can also lead to slowing down of program */
+/* /* Whenever we see @ it means resource heavy */
+@keyframes anything {
+    0%{
+        height: 100px;
+        background-color: green;
+    }
+    /* Ordering doesn't matter here, where we can interchange the position of 50% and 100% */
+    100%{
+        height: 300px;
+        background-color: red;
+    }
+    50%{
+        height: 500px;
+        background-color: black;
+    }
+}

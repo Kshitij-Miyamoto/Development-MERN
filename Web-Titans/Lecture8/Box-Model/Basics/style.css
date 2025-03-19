@@ -1,0 +1,33 @@
+/* Using this to nullify the border and padding given by the browser */
+*{
+    margin: 0  ;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    /* padding: 10px; */
+    border: 5px solid black;
+    /* margin: 20px; */
+    /* Here there will be no effect on the content area */
+    box-sizing: content-box;
+    /* Here there will be effect on the content area, it will minimise. Priority is the overall area */
+    box-sizing: border-box; 
+}
+
+span{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    /* padding: 10px; */
+    border: 5px solid black;
+    /* margin: 20px; */
+    /* Here there will be no effect on the content area */
+    box-sizing: content-box;
+    /* Here there will be effect on the content area, it will minimise. Priority is the overall area */
+    box-sizing: border-box; 
+}

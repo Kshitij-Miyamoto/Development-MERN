@@ -1,0 +1,34 @@
+/* div{
+    background-color: aqua;
+    width: 75%;
+}
+section{
+    background-color: blue;
+    width: 500px
+} */
+
+/* So here we have given the div tag backgroud an upper limit of width by giving it's parent certain restrictions which in this
+case is 500px */
+
+/* ul>li{
+    color: brown;
+    font-size: 40px;
+    border: 2px solid black;
+} */
+/* There are some properties which can be inherited and some are
+ which can't be inherited, properties which can be inherited
+are color, font size, and properties which can't be inherited are border
+ */
+
+ /* em , Here em is getting inherited result of which we will get a doubled downed list*/
+ul>li{
+    font-size: 2rem;
+ }
+ /* To remove this inconsistencey we us rem instead of em which means root 
+ of em which is actually HTML and has 16px size on avergae */
+div{
+    background-color: red;
+    width: 50vw;
+    height: 20vh;
+
+}

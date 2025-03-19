@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    display: flex;
+    background-color: aqua;
+    height: 100vh;
+     text-decoration: dashed;
+     font-size: 2em;
+     justify-content: space-between;
+}
+
+#d1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    flex-grow: 1;
+}
+
+#d2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    flex-grow: 4;
+}
+    
+
+#d3{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    flex-grow: 8;
+}
+section{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}

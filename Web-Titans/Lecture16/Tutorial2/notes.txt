@@ -1,0 +1,3 @@
+
+ What are first class function ? 
+ What functions are called first class ?

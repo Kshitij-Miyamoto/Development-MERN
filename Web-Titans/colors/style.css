@@ -1,0 +1,18 @@
+
+/* Understanding RGB and RGBA color channels */
+h1{
+    color: rgb(128 , 155, 256);
+}
+/* RGBA means Red, Green, Blue, Alpha, Alpha can be understood as 
+a sheet and it's values lies from 0 to 1, at the color is evident 
+and at 0 it invisble*/
+h2{
+    color: rgba(100, 150, 200, 1);
+}
+/* We can feed values to RGB in various number systems like decimal, binary and hexadecimal */
+h3{
+    /* Hexadecimal also consists of RGBA chanel, the last 2 bits are reserved for alpha channel
+    the last 2 bits will exist and will have values from 0-7 and a-f */
+    color: #ff7a007f;
+    /* Here the last two digits ware giving us the opaque nature */
+}

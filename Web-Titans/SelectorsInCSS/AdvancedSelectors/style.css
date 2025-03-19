@@ -1,0 +1,21 @@
+/* decendent example */
+section h1{
+    color : red ;
+    font-size :  30px ;
+}
+
+/* child example */
+section > div > h1 > span{
+    background-color: orange;
+}
+
+/* This is for adjacent sibling, the sibling which is just connected from top to bottom */
+h1 + p{ 
+    color: blue;
+}
+
+/* This is to select all the general siblings which are given to us */
+h1~p{
+    background-color: aqua;
+    box-shadow: 10px 10px 10px;
+}

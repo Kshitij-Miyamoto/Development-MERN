@@ -1,0 +1,13 @@
+
+h1{
+    color: blue;
+    background-color: aquamarine;
+    font: 30px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    border: 20px black;
+    box-shadow: 5px 5px 10px gray;
+    transition: all 5s ease;
+
+}

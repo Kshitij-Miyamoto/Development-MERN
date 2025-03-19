@@ -1,0 +1,37 @@
+h1 , div {
+    color: red;
+    font-size: 50px;
+    /* padding: 10px 10px 10px;
+    border: 10px 10px 10px;
+    box-shadow: 5px 5px 5px 5px; */
+}
+/* Basically in hover we are trying to change the states, hover here helps us in chnageing the states */
+div:hover, h1:hover{
+    color: green;
+    cursor: pointer;
+}
+a{
+    color: blue;
+    font-size: 60px;
+}
+/* When we are yet to visit the anchor link */
+a:active{
+    color : aqua;
+    border : 5px solid black ;
+}
+/* When we have already visited the anchor link */
+ a:visited{
+    background-color: red ;
+    border : 5px solid black ;
+ }
+
+ input:focus{
+    background-color: aqua;
+    color: aqua;
+ }
+/* No space in between li statement, otherwise it will throw up error */
+ li:nth-of-type(odd){
+color: green;
+padding: 5px 5px 5px 5px;
+ }
+

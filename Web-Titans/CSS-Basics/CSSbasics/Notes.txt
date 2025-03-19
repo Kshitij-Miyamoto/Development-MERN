@@ -1,0 +1,1 @@
+So yeah in this HTML + CSS file folder I have tried and covered basics of HTML and CSS followed by basic selectors.

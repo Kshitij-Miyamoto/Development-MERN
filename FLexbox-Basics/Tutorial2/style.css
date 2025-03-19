@@ -1,0 +1,145 @@
+/* *{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+}
+
+.Container{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+  border: 2px solid black;
+
+}
+
+.box{
+  height: 20px;
+}
+
+#home{
+    font-size: 1.5em;
+ background-color: green;
+ height: 35px;
+ width: 100px;
+ text-align: center;
+ color: antiquewhite;
+}
+.fbox{
+    display: flex;
+    flex-direction: row;
+    border: 2px black;
+}
+#about{
+    font-size: 1.5em;
+    padding-left: 100px;
+   padding-right: 100px;
+   background-color: green;
+   color: antiquewhite;
+
+}
+
+#projects{
+    font-size: 1.5em;
+    padding-right: 100px;
+    background-color: green;
+   color: antiquewhite;
+ }
+
+ #resume{
+    font-size: 1.5em;
+    padding-right: 100px;
+    background-color: green;
+   color: antiquewhite;
+   text-align: center;
+ }
+ #but{
+    height: 35px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    color: black;
+    
+ }
+
+  */
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: beige;
+}
+.container {
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.box {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home {
+    font-size: 1.5em;
+    background-color: green;
+    width: 100px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.fbox {
+    display: flex;
+}
+
+.b1 {
+    font-size: 1.5em;
+    padding: 0 20px;
+    background-color: green;
+    color: antiquewhite;
+    text-align: center;
+}
+
+#but {
+    height: 35px;
+    padding: 0 30px;
+    text-align: center;
+    color: black;
+}
+.Head{
+    padding: 10px 10px 10px 10px;
+}
+.Container2 {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Aligns items vertically */
+    align-items: center; /* Aligns items horizontally */
+}
+#Thought1{
+    display: flex;
+    flex-direction: column;
+     text-align: center;
+    width: 800px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid black;
+
+}
+#Head2{
+    padding: 10px 10px 10px 10px;
+}
+ .Container3{
+    display: flex;
+     width: 800px;
+     flex-direction: column;
+     padding: 10px 10px 10px 10px;
+     border: 2px solid black;
+}

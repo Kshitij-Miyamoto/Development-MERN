@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+   section{
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 10px solid black;
+    align-content: start;
+}
+.box{
+   height: 100px;
+   width: 100px;
+}
+
+#d1{
+    background-color: blue;
+    width: 100px;
+    padding: 5px;
+    margin: 2px;
+    flex-shrink: 4;
+
+}
+#d2{
+ background-color: green;
+ width: 100px;
+ padding: 5px;
+ margin: 2px;
+}
+#d3{
+ background-color: yellow;
+ width: 100px;
+ padding: 5px;
+ margin: 2px;
+}
+#d4{
+ background-color: black;
+ width: 100px;
+ padding: 5px;
+ margin: 2px;
+}
+
