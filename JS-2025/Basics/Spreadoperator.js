@@ -44,7 +44,11 @@ let letters = [...word];
 console.log(letters);
 
 /* Spread operator is basically used to  merge to arrays cleanly
-Passing array elements as arguments, Converting strings to arrays */
+Passing array elements as arguments, Converting strings to arrays
+Since objects and arrays are stored by reference, modifying a copied 
+variable (without spread) will also affect the original. 
+The spread operator (...) creates a shallow copy, ensuring the original remains unchanged.
+ */
 
 function multiplication(a, b, c){
     return a*b*c ;

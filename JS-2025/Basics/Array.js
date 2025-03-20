@@ -63,6 +63,15 @@ let matrix = [
   const matrixspread = [ ...matrix] ;
   console.log(matrixspread);
   
+  //Another array 
+  const another_array = [1, 2, 3 [1, 3, 5 [7 , 9 , 10]]]
+  console.log(another_array);
+
+  const real_another_array = another_array.flat(infinity)
+  console.log(real_another_array);
+  
+  
+
   
   
 
