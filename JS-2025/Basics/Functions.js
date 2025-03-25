@@ -17,6 +17,18 @@ const user = {
 
 }
 
+//Basically padding an object in a function
 function handledObject(anyobject){
-    
+ return anyobject
 }
+
+console.log(handledObject(user));
+
+//Now passing an array in a function to return the value at the fist index : 
+const newarr = [10, 20, 30, 40, 50]
+function returnarray(myarray){
+    return myarray[1] ; 
+}
+console.log(returnarray(newarr));
+
+
