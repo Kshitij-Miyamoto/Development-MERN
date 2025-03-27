@@ -26,6 +26,9 @@ console.log(object); //It is pass by refernce hence a reason for which the real 
 
 //Functions which are stored or defined in an object are known as methods : 
 
-
+//Using for in, it is primarily used to iterate through objects.
+for (let item in object){
+    console.log(`${object[item]} --> ${item}`)
+}
 
 
