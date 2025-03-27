@@ -31,4 +31,9 @@ function returnarray(myarray){
 }
 console.log(returnarray(newarr));
 
+let func = function iphone(){
+    console.log("Kshitij's Iphone !! ")
+}
+console.log(func)
+
 
